@@ -1,0 +1,13 @@
+[package]
+name = "rtunerbis"
+version = "0.1.0"
+authors = ["Leonardo Cecchi <leonardo.cecchi@2ndquadrant.it>"]
+edition = "2018"
+
+[dependencies]
+dotenv="*"
+diesel={ version="*", features=["postgres"] }
+rocket = "*"
+rocket_contrib = { version="*", features=["json"] }
+serde = { version="*", features=["derive"] }
+serde_json = "*"
